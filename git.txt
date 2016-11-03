@@ -1,0 +1,7 @@
+function func(){
+	alert("Hello javaScript!");
+	alert("再增加一行。");
+	return true;
+}
+
+ssh-keygen -t rsa -C "kevin.e@qq.com"   获得ssh密钥 
