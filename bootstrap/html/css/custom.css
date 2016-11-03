@@ -1,0 +1,22 @@
+body { 
+	background-color:#fff;
+	padding-top: 50px;
+	} 
+h1, h2, h3, h4, h5, h6 {
+	font-family: ‘Corben’, Georgia, Times, serif;
+	} 
+p, div {
+	font-family: ‘Nobile’, Helvetica, Arial, sans-serif;
+	} 
+.carousel{
+	height: 100%;
+	background-color: #000;
+	margin-bottom: 50px;
+}
+.carousel .item{
+	height: 100%;
+	background-color: #000;
+}
+.carousel img{
+	min-width: 100%;
+}
