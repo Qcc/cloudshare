@@ -1,7 +1,15 @@
-function func(){
-	alert("Hello javaScript!");
-	alert("再增加一行。");
-	return true;
-}
-
+git init      初始化git仓库
+git add  file.js     提交文件到暂存区
+git commit -m "提交详细说明"   提交文件到仓库
+git status     查看git仓库状态
+git diff file.js   对比文件修改
+git log      查看提交记录
+git log --pretty=online   查看简要记录
+git reset --hard HEAD^    退回到仓库记录 HEAD~10 返回前10次提交前
+git reset --hard 00121245412df   退回到指定的提交记录
+git reflog    查看提交记录
+git diff HEAD -- file.js  对比暂存区文件
+git checkout --file.js    丢弃工作区文件修改
+git reset HEAD file.js    撤回暂存区文件修改
+git rm file.js   删除文件，删除后提交，或者恢复。
 ssh-keygen -t rsa -C "kevin.e@qq.com"   获得ssh密钥 
