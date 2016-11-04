@@ -30,3 +30,4 @@ git merge name 合并mane分支到当前分支，需要解决冲突
 git log --graph --pretty=oneline --abbrev-commit 查看合并log
 git merge --no-ff -m "merge with no-ff" dev   禁用Fast forward 可以查看分支合并历史
  
+branch dev
