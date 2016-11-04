@@ -26,4 +26,8 @@ git branch 查看当前分支状况
 git merge name 合并name分支到当前分支
 git branch -d name 删除name分支
 
+<<<<<<< HEAD
 branch feature1 and master
+=======
+branch feature1
+>>>>>>> feature1
