@@ -29,5 +29,10 @@ git branch -d name 删除name分支
 git merge name 合并mane分支到当前分支，需要解决冲突
 git log --graph --pretty=oneline --abbrev-commit 查看合并log
 git merge --no-ff -m "merge with no-ff" dev   禁用Fast forward 可以查看分支合并历史
+
+git stash 保存当前工作区
+git stash pop 恢复工作区，并删除临时存储内容
+git stash list 查看临时保存工作区记录
+git stash apply 恢复工作区，
+git stash drop 清空临时存储工作区
  
-branch dev
