@@ -38,4 +38,8 @@ git stash drop 清空临时存储工作区
 
 git branch -D name 强制删除未被合并过的分支
 
+git remote 查看远程仓库
+git remote -v 查看远程仓库详细信息
+git push origin master 推送master分支到远程仓库
+
  
