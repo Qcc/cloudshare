@@ -13,3 +13,13 @@ git checkout --file.js    丢弃工作区文件修改
 git reset HEAD file.js    撤回暂存区文件修改
 git rm file.js   删除文件，删除后提交，或者恢复。
 ssh-keygen -t rsa -C "kevin.e@qq.com"   获得ssh密钥 
+git push 推送到远端
+git pull 从远端获取同步
+git remote add origin git@github.com:qcc/cloudshare.git   关联github远程仓库
+git push origin master  推送到远端仓库
+git branch name 创建name分支
+git checkout name 切换到name分支  
+git checkout -b name 创建并切换到name分支
+git branch 查看当前分支状况
+git merge name 合并name分支到当前分支
+git branch -d name 删除name分支
