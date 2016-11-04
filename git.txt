@@ -35,4 +35,7 @@ git stash pop 恢复工作区，并删除临时存储内容
 git stash list 查看临时保存工作区记录
 git stash apply 恢复工作区，
 git stash drop 清空临时存储工作区
+
+git branch -D name 强制删除未被合并过的分支
+
  
