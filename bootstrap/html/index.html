@@ -1,151 +1,222 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-   <head>
-      <title>首页</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="renderer" content="webkit">
 
-      <!-- 引入 Bootstrap -->
-      <link href="../bootstrap-3.3.0/css/bootstrap.min.css" rel="stylesheet">
+<head>
+    <title>首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
 
-      <!-- HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
-      <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
-      <!--[if lt IE 9]>
+    <!-- 引入 Bootstrap -->
+    <link href="../bootstrap-3.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+    <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+    <!--[if lt IE 9]>
          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
       <![endif]-->
-      <link rel="stylesheet" type="text/css" href="css/custom.css">
-   </head>
-   <body>
-     <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
-<div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+        <!-- /.container-fluid -->
+    </nav>
 
-<!-- 轮播 -->
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-  </ol>
+    <!-- 轮播 -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="images/image01.jpg" alt="第一张图片">
-      <div class="carousel-caption">
-        
-      </div>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/image01.jpg" alt="第一张图片">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/image02.jpg" alt="第二张图片">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/image03.jpg" alt="第三张图片">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/image04.jpg" alt="第四张图片">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">上一页</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">下一页</span>
+        </a>
     </div>
-    <div class="item">
-      <img src="images/image02.jpg" alt="第二张图片">
-      <div class="carousel-caption">
-         
-      </div>
-    </div>
-    <div class="item">
-      <img src="images/image03.jpg" alt="第三张图片">
-      <div class="carousel-caption">
-         
-      </div>
-    </div>
-    <div class="item">
-      <img src="images/image04.jpg" alt="第四张图片">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-  </div>
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">上一页</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">下一页</span>
-  </a>
-</div>
+    <!-- 三栏布局 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/item1.png" alt="项目1">
+                <h5>产品系列1</h5>
+                <p>产品介绍产品介绍产品介绍产品介绍产品介绍产品介绍产品介绍产品介绍</p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/item2.png" alt="项目1">
+                <h5>产品系列1</h5>
+                <p>产品介绍产品介绍产品介绍产品介绍产品介绍产品介绍产品介绍产品介绍</p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/item3.png" alt="项目1">
+                <h5>产品系列1</h5>
+                <p>产品介绍产品介绍产品介绍产品介绍产品介绍产品介绍产品介绍产品介绍</p>
+            </div>
+        </div>
+    </div>
 
-<!-- 三栏布局 -->
-<div class="container">
-  <div class="row">
-  <div class="col-md-4">
-  		<img src="images/item1.png" alt="项目1">
-  		<h5>产品系列1</h5>
-  		<p>产品介绍产品介绍产品介绍产品介绍产品介绍产品介绍产品介绍产品介绍</p>
-  </div>
-  <div class="col-md-4">
-  		<img src="images/item2.png" alt="项目1">
-  		<h5>产品系列1</h5>
-  		<p>产品介绍产品介绍产品介绍产品介绍产品介绍产品介绍产品介绍产品介绍</p>
-  </div>
-  <div class="col-md-4">
-		<img src="images/item3.png" alt="项目1">
-  		<h5>产品系列1</h5>
-  		<p>产品介绍产品介绍产品介绍产品介绍产品介绍产品介绍产品介绍产品介绍</p>
-  </div>
-  </div>
-</div>
+    <!--底部容器-->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="#"><img src="images/logo.png" alt="云享logo" title="logo"></a>
+                            <p>中国物联网解决方案提供商</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/qrcode.png" alt="云享二维码" title="二维码">
+                            <p>微信扫一扫 关注我们</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>云享智能</th>
+                                <th>应用场景</th>
+                                <th>商务合作</th>
+                                <th>联系我们</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="#">公司介绍</a></td>
+                                <td><a href="#">综合商场</a></td>
+                                <td><a href="#">计划A</a></td>
+                                <td>深圳市南山区科技园南区W1-B五楼</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">我们的优势</a></td>
+                                <td><a href="#">交通枢纽</a></td>
+                                <td><a href="#">计划B</a></td>
+                                <td>电话：0755-26525593</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">公司活动</a></td>
+                                <td><a href="#">电影院</a></td>
+                                <td><a href="#">计划C</a></td>
+                                <td>邮箱：xxx@szcloudshare.com</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a href="#">星级酒店</a></td>
+                                <td><a href="#">计划D</a></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a href="#">其他场合</a></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid copyright">
+        <div class="copyright"><p class="text-center">深圳市云享智能有限公司版权所有 © 2016-2018 粤ICP备16054827号-1</p></div>
+    </div>
+    <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- 包括所有已编译的插件 -->
+    <script src="../bootstrap-3.3.0/js/bootstrap.min.js"></script>
+</body>
 
-      <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
-      <script src="https://code.jquery.com/jquery.js"></script>
-      <!-- 包括所有已编译的插件 -->
-      <script src="../bootstrap-3.3.0/js/bootstrap.min.js"></script>
-   </body>
 </html>
-
