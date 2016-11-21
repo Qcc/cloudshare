@@ -1,4 +1,5 @@
-body {
+@charset "UTF-8";
+.wrap {
     padding-top: 50px;
 }
 
@@ -10,6 +11,20 @@ h5,
 h6 {
     font-family: ‘Corben’, Georgia, Times, serif;
 }
+
+
+/*header*/
+
+.navbar-brand {
+    padding-top: 3px;
+}
+
+.banner-image {
+    padding: 0;
+}
+
+
+/*banner*/
 
 p,
 div {
@@ -31,18 +46,104 @@ div {
     min-width: 100%;
 }
 
+.carousel-caption {
+    top: 20%;
+    left: 20%;
+    right: 60%;
+    bottom: 20%;
+    overflow: hidden;
+}
+
+
+/*body*/
+
+.body-center {
+    background-color: #fff;
+}
+
+.small-nav {
+    float: right;
+}
+
+
+/*侧边导航*/
+
+.internet-things-icon {
+    position: absolute;
+    top: -105px;
+    background-color: #383a3f;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.nav-pills>li.active>a,
+.side-nav>li.active>a:hover,
+.side-nav>li.active>a:focus {
+    background-color: #f6b352;
+}
+
+.side-nav>li>a {
+    color: #333;
+}
+
+.right-content {
+    margin-top: 0;
+}
+
+.page-img {
+    float: left;
+    margin: 0 20px 20px 0;
+    display: inline;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.page-text {
+    text-indent: 30px;
+    line-height: 170%;
+}
+
+
+/*middle-luyout*/
+
+.middle {
+    margin-bottom: 50px;
+}
+
+.middle-luyout {
+    padding: 0 50px;
+    text-align: center;
+}
+
+.middle-center {
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+}
+
+.middle-luyout h4 {
+    font-weight: bold;
+}
+
+
+/*.middle-luyout p {
+    text-align: left;
+}*/
+
+.middle-luyout img {
+    vertical-align: middle;
+}
+
 
 /*footer*/
 
-.container-fluid {
+.footer-fulid {
     padding-top: 30px;
-    background-color: #222;
+    background-color: #333;
 }
 
 .copyright {
     margin: 0;
     padding: 0;
-    background-color: #333;
+    background-color: #222;
     color: #666;
 }
 
@@ -64,10 +165,35 @@ table>thead>tr>th,
 }
 
 .table thead {
-    color: #f90;
+    color: #f6b352;
 }
 
 .table tbody,
 .table tbody a {
     color: #fff;
+}
+
+.qrcode {
+    margin-top: 20px;
+}
+
+.qrcode .log {
+    margin-top: 30px;
+}
+
+.qrcode div p {
+    margin-top: 10px;
+    color: #fff;
+}
+
+
+/*login*/
+
+.wrap-login {
+    background-color: #eee;
+}
+
+.login-custom {
+    height: 23em;
+    width: 25em;
 }
