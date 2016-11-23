@@ -10,18 +10,18 @@
 <hr>
 
 格式标签
-<abbr>
-<blockquote>
-<i>
-<b>
-<strong>
-<big>
-<small>
+<abbr> 首字母缩写
+<blockquote> 段落引用
+<i> 斜体
+<b> 粗体
+<strong> 加强语气粗体
+<big> 大字体
+<small> 小字体
 <bdo> 文字方向
-<var>
-<code>
-<pre>
-<kdb>
+<var> 变量
+<code> 代码
+<pre> 予格式
+<kdb> 
 <em>
 <del>
 <ins>
