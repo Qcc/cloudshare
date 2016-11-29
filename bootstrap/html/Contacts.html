@@ -34,17 +34,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo_white.png" alt="主页logo" title="导航logo"></a>
+                <a class="navbar-brand" href="#"><img src="images/logo_white.png" alt="主页logo" title="导航logo"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">主页</a></li>
+                    <li><a href="index.html">主页</a></li>
                     <li><a href="./things.html">物联网</a></li>
                     <li><a href="./massage.html">按摩体验中心</a></li>
                     <li><a href="./Cooperation.html">商务合作</a></li>
-                    <li><a href="./Contacts.html">关于我们</a></li>
+                    <li class="active"><a href="./Contacts.html">关于我们</a></li>
                     <!--下拉导航-->
                     <!--<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
@@ -93,7 +93,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                    <h4 class="modal-title" id="myModalLabel">欢迎登录</h4>
+                    <h4 class="modal-title" id="myModalLabel">云享智能管理系统</h4>
                 </div>
                 <div class="modal-body">
                     <form class="form-signin" role="form">
@@ -115,84 +115,55 @@
         </div>
     </div>
 
+    <!--banner1-->
 
-    <!-- 轮播 -->
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            <!--<li data-target="#carousel-example-generic" data-slide-to="3"></li>-->
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="images/image01.jpg" alt="智慧物联网" title="智慧物联网">
-                <div class="carousel-caption">
-                    <h1>云享物联网</h1>
-                    <p>云享智能物联网正式上线啦，做中国最大的智慧物联网！</p>
-                </div>
-            </div>
-            <div class="item">
-                <img src="images/image02.jpg" alt="智能按摩椅">
-                <div class="carousel-caption">
-                    <h1>云享智能按摩椅</h1>
-                    <p>云享智能按摩椅，方便、舒适，给你不一样的体验！</p>
-                </div>
-            </div>
-            <div class="item">
-                <img src="images/image03.jpg" alt="招募合作伙伴">
-                <div class="carousel-caption">
-
-                </div>
-            </div>
-            <!--<div class="item">
-                <img src="images/image04.jpg" alt="第四张图片">
-                <div class="carousel-caption">
-
-                </div>
-            </div>-->
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">上一页</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">下一页</span>
-        </a>
+    <div class="container-fluid banner-image">
+        <img src="images/banner1.jpg" class="img-responsive banner-image" alt="banner1">
     </div>
 
-    <!-- 三栏布局 -->
+    <!--body-->
     <div class="container">
-        <div class="row middle">
-            <div class="col-md-4 middle-luyout">
-                <h4>客户服务</h4>
-                <p>以客户为中心，良好的客户关系奠定了企业的发展基础,以客户为中心，良好的客户关系奠定了企业的发展基础</p>
-                <a href="#" role="客户服务">
-                    <img src="images/service.jpg" alt="客户服务中心" title="客户服务中心">
-                </a>
+        <ol class="breadcrumb small-nav">
+            <li><a href="./index.html">主页</a></li>
+            <li><a href="./things.html">关于</a></li>
+            <li class="active">简介</li>
+        </ol>
+    </div>
+    <!--左侧导航-->
+    <div class="container body-center">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="container-fluid internet-things-icon">
+                    <h2><img src="images/contacts64_64.png">&nbsp;&nbsp; 关于</h2>
+                </div>
+                <ul class="nav nav-pills nav-stacked side-nav" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#"><span class="glyphicon glyphicon-cloud"></span>&nbsp;&nbsp; 云享智能介绍</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;&nbsp; 加入我们</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;&nbsp; 联系方式</a>
+                    </li>
+                </ul>
             </div>
-            <div class="col-md-4 middle-luyout middle-center">
-                <h4>物联网产品介绍</h4>
-                <p>智能按摩椅项目，后续会继续退出其他基于智慧物联网的互联网+产品,智能按摩椅项目，后续会继续退出其他基</p>
-                <a href="#" role="产品介绍">
-                    <img src="images/product.jpg" alt="物联网产品介绍" title="物联网产品介绍">
-                </a>
-            </div>
-            <div class="col-md-4 middle-luyout">
-                <h4>线下体验中心</h4>
-                <p>云享智能线下体验店开张了，快来体验体验吧。云享智能线下体验店开张了，快来体验体验吧。</p>
-                <a href="#" role="体验中心">
-                    <img src="images/center.jpg" alt="线下体验中心" title="线下体验中心">
-                </a>
+            <!--右侧内容区-->
+            <div class="col-md-9 right-content">
+                <div class="page-header right-content">
+                    <h2 class="right-content">公司简介<small>深圳市云享智能科技有限公司</small></h2>
+                </div>
+                <div class="page-content">
+                    <img class="img-responsive page-img" src="images/company.jpg" alt="公司办公楼" title="公司办公楼">
+                    <p class="page-text">深圳市沟通科技有限公司（以下简称沟通科技）于2003年创立于深圳经济特区。十年专注移动云交付、应用虚拟化产品及方案的研发与推广。旗下CTBS、GO-Cloud移动云交付平台可统一发布应用程序，无需二次开发，即刻实现随时随地安全移动办公和云服务。 满足企业级用户安全移动办公的需要,实现随时随地的云服务。解决方案目前在移动金融、政务、电力、物流获得广泛应用。 深圳总部外，沟通科技目前在北京、上海已设立区域营销服务中心。<br /><br />
+                        <p class="page-text">沟通科技长期坚持“创新技术驱动商业进步”的经营理念，每年将不低于15%的销售收入投入研发。作为技术驱动型的国家级高新技术企业，2013年6月，获得行业内第一个国家发明专利：安全的企业移动办公应用交付。专利技术帮助集团企业在安全的IT环境下，使商务用户能够使用智能手机、平板电脑、PC等手持设备在任何地方移动访问应用程序与数据。专利技术为移动信息化、虚拟化提供高性能、有弹性的云服务，提高商业组织的业务速度和敏捷度。<br /><br /> </p>
+                        <p class="page-text">
+                            沟通科技积极构建健康的渠道生态联盟， 帮助渠道合作伙伴提升虚拟化、移动信息化整合解决方案能力，和金蝶、鼎捷、东软、神州数码等平台厂商建立了多年的战略联盟合作，帮助四川省卫生厅、中石化十建、上海移动、松下电器等多家集团用户构建广泛的云计算交应用交付中心。每天约有数十万商务人士通过CTBS平台，实现安全移动办公和云服务。</p><br /> <br />
+                </div>
             </div>
         </div>
     </div>
+
 
     <!--底部容器-->
     <div class="container-fluid footer-fulid">
