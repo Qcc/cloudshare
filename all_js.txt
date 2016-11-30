@@ -1,0 +1,18 @@
+DOM方法 document对象
+getElementById()
+getElementsByTagName()
+getElementsByClassName()
+appendChild()
+removeChild()
+replaceChild()
+insertBefore()
+creatAttribute()
+createElement()
+createTextNode()
+getAttribute()
+setAttribute()
+
+属性
+nodeValue
+nodeName
+nodeType
