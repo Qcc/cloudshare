@@ -221,6 +221,12 @@ div {
 }
 
 /*Cooperation.html 按摩椅合作海报*/
+.cooperation-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
 .title-border{
     border-radius: 50%;
     border:  3px dotted #f6b352;
@@ -247,4 +253,93 @@ div {
     left: -5px;
     border-radius: 50%;
     border: 3px dotted #448aff;
+}
+.title-txt{
+    margin: 20px;
+}
+.title-h3{
+    position: relative;
+    top: -130px;
+    color:#448aff;
+}
+.title-p{
+    background-color: #eee;
+    border-radius: 10px 0 10px 0;
+    padding: 5px;
+}
+.title-small{
+    text-align: right;
+    border: 1px solid red;
+}
+.coope-txt-box{
+    width: 400px;
+    height: 400px;
+    padding-top: 30px;
+}
+.coop-box{
+    position: relative;
+}
+.coop-img-box01{
+    background-color: #fff;
+    box-shadow: 0 0 8px 2px  #666;
+    text-align: right;
+    -o-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+    position: absolute;
+    z-index: 10;
+    left: -120px;
+    top: 10px;
+}
+.coop-img-box02{
+    background-color: #fff;
+    box-shadow: 0 0 8px 2px  #666;
+    text-align: right;
+    -o-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    -webkit-transform: rotate(1deg);
+    transform: rotate(1deg);
+    z-index: 9;
+    position: relative;
+}
+.coop-img-box03{
+    background-color: #fff;
+    box-shadow: 0 0 8px 2px  #666;
+    text-align: right;
+    -o-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+    position: absolute;
+    z-index:7;
+    left: 120px;
+    top: 10px;
+}
+
+.coop-img{
+    position: relative;
+    padding: 10px;
+}
+.coop-txt-title{
+    color:#448aff;
+    margin-bottom: 30px;
+}
+.partner-bigbox{
+    background-image: url("images/partner-background.png");
+     padding-bottom: 40px;
+}
+.partner-box{
+    margin:0 150px;
+    background-color: #eee;
+    border-radius: 20px 0 20px 0;
+    padding: 10px;
+   
+}
+.partner-check{
+    margin: 0 auto;
+    height: 20px;
+    width: 300px;
+    border-left:3px solid #f6b352;
+    border-right:3px solid #f6b352;
 }
