@@ -416,3 +416,19 @@ div {
     font-size: 28px;
     font-family: "Tahoma, Geneva, sans-serif";
 }
+/*massage-service.html*/
+.server-area{
+    height: 430px;
+    width: 860px;
+    background:url("images/bsgs.jpg") no-repeat left center; 
+}
+.server-area ul{
+    list-style-type: disc;
+    list-style-image: url("images/bgpng38.png");
+    float: right;
+    padding:50px 100px 0 0;
+}
+.server-area ul li{
+    color: #f6b352;
+    padding-bottom: 10px;
+}
