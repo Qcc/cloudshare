@@ -1,4 +1,4 @@
-git init      初始化git仓库
+﻿git init      初始化git仓库
 git add  file.js     提交文件到暂存区
 git commit -m "提交详细说明"   提交文件到仓库
 git status     查看git仓库状态
@@ -54,3 +54,4 @@ git push prigin -tags  提交本地所有标签
 git tag -d v0.1.1 删除v0.1.1标签
 git push origin :refs/tags/v0.1.1 删除远程标签v0.1.1
  2016年12月4日 21:52:49
+12.15
