@@ -55,7 +55,15 @@ div {
     bottom: 20%;
     overflow: hidden;
 }
+.carousel-cloudshare,.carousel-inner{
+    min-width: 1200px;
+}
 
+@media screen and (max-width: 1100px){
+.carousel-control{
+    display: none;
+}
+}
 
 /*body*/
 
