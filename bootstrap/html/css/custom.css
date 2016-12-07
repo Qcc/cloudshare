@@ -11,7 +11,9 @@ h5,
 h6 {
     font-family: ‘Corben’, Georgia, Times, serif;
 }
-
+.container{
+    width: 1200px;
+}
 
 /*header*/
 
@@ -102,7 +104,16 @@ div {
     text-indent: 30px;
     line-height: 170%;
 }
-
+/*模态框登录*/
+.cloudshare-modal{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-top: 125px;
+    margin-left: -200px;
+    width: 400px;
+    height: 250px;
+}
 
 /*middle-luyout*/
 
@@ -135,21 +146,28 @@ div {
 
 
 /*footer*/
-
-.footer-fulid {
-    padding-top: 30px;
+.footer-warp{
     background-color: #333;
 }
+.footer-fulid{
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 1200px;
+    background-color: #333;
 
+}
+.copyright-warp{
+    background-color: #222;
+}
 .copyright {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    width: 1200px;
     background-color: #222;
     color: #666;
 }
 
 .copyright p {
-    margin: 5px 0;
+    margin: 5px auto;
 }
 
 .footer-table>thead>tr>th {
